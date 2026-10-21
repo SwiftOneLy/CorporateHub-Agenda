@@ -4,34 +4,48 @@
 [![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)](https://www.mysql.com/)
 [![Status](https://img.shields.io/badge/Status-Em_Desenvolvimento-green?style=for-the-badge)]()
 
-Aplicação desenvolvida como parte dos projetos disciplinares do **Senac Tatuapé**, focada em lógica de programação, desenvolvimento backend em Java e integração com banco de dados relacional (SQL) para gerenciamento de contatos e dados corporativos.
+Aplicação desenvolvida em **Java** com interface gráfica (Swing/GUI Designer do IntelliJ), integrada a um banco de dados relacional **SQL** para gerenciamento completo de contatos.
 
 ---
 
-## 📌 Sobre o Projeto
+## 🖼️ Interface da Aplicação
 
-O **CorporateHub** tem como objetivo centralizar informações administrativas e de contatos de forma eficiente. Esta versão do projeto implementa uma **Agenda de Contatos**, permitindo realizar operações completas de persistência de dados (CRUD) conectando uma aplicação em **Java** a um banco de dados relacional **SQL**.
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/13c9fb0b-6ea0-4389-9e3f-57174a37cfcd" />
+
+</div>
+
+---
+
+## 📂 Estrutura do Projeto
+
+O projeto segue uma arquitetura limpa dividida em pacotes:
+* **`controller`**: Classes responsáveis pela lógica de negócio e manipulação dos dados.
+* **`model`**: Classes de mapeamento e representação das entidades (ex: Contato).
+* **`view`**: Interfaces gráficas desenvolvidas com o Java Swing (`Agenda.form`, `Agenda.java`).
 
 ---
 
 ## 🚀 Funcionalidades
 
-- **Gerenciamento de Contatos:** Cadastro, consulta, atualização e remoção de registros de contatos.
-- **Conexão com Banco de Dados:** Persistência segura e estruturada utilizando SQL.
-- **Estrutura Modular:** Código limpo e organizado seguindo boas práticas de orientação a objetos em Java.
+- **Gerenciamento Completo (CRUD):** Adicionar, consultar, editar e excluir contatos.
+- **Busca Rápida:** Pesquisa de registros diretamente pela interface.
+- **Integração com WhatsApp:** Atalho para envio de mensagens rápidas.
+- **Status de Conexão:** Indicador visual em tempo real do estado da conexão com o banco SQL.
 
 ---
 
 ## 🛠️ Tecnologias Utilizadas
 
-- **Linguagem:** [Java](https://www.oracle.com/java/)
-- **Banco de Dados:** SQL (MySQL / PostgreSQL / SQLite)
-- **Controle de Versão:** [Git](https://git-scm.com/) e [GitHub](https://github.com/)
+- **Linguagem:** Java
+- **IDE:** IntelliJ IDEA (com GUI Designer)
+- **Banco de Dados:** SQL (MySQL / SQLite)
+- **Controle de Versão:** Git e GitHub
 
 ---
 
-## 🗄️ Estrutura do Banco de Dados
+## 📦 Como Executar
 
-Os scripts para criação da estrutura das tabelas, esquemas e dados iniciais encontram-se no arquivo [`banco-de-dados.sql`](./banco-de-dados.sql) na raiz do repositório.
-
----
+1. **Clone o repositório:**
+   ```bash
+   git clone [https://github.com/SwiftOneLY/CorporateHub-Agenda.git](https://github.com/SwiftOneLY/CorporateHub-Agenda.git)
