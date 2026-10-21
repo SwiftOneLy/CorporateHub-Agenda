@@ -1,48 +1,37 @@
-# 🏢 CorporateHub — Sistema de Gerenciamento Empresarial
+# 📱 CorporateHub — Agenda de Contatos (Java & SQL)
 
-O **CorporateHub** é uma aplicação web desenvolvida com foco em gerenciamento corporativo. O projeto visa integrar uma interface web intuitiva com uma estrutura robusta de banco de dados relacional (SQL) para centralizar e otimizar processos administrativos empresariais.
+[![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)](https://www.oracle.com/java/)
+[![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)](https://www.mysql.com/)
+[![Status](https://img.shields.io/badge/Status-Em_Desenvolvimento-green?style=for-the-badge)]()
+
+Aplicação desenvolvida como parte dos projetos disciplinares do **Senac Tatuapé**, focada em lógica de programação, desenvolvimento backend em Java e integração com banco de dados relacional (SQL) para gerenciamento de contatos e dados corporativos.
 
 ---
 
 ## 📌 Sobre o Projeto
 
-Este projeto faz parte da disciplina de lógica de programação e desenvolvimento do Senac Tatuapé. A primeira etapa do projeto é focada na **modelagem, estruturação e integração do banco de dados SQL**, servindo como base backend para a plataforma web.
+O **CorporateHub** tem como objetivo centralizar informações administrativas e de contatos de forma eficiente. Esta versão do projeto implementa uma **Agenda de Contatos**, permitindo realizar operações completas de persistência de dados (CRUD) conectando uma aplicação em **Java** a um banco de dados relacional **SQL**.
 
-### 🎯 Principais Objetivos
-- **Fase 1 (Atual):** Modelagem do banco de dados relacional (SQL), criação de esquemas, tabelas e scripts de consulta.
-- **Fase 2:** Desenvolvimento do frontend/interface web para interação com o usuário.
-- **Fase 3:** Integração completa entre a aplicação web e o banco de dados.
+---
+
+## 🚀 Funcionalidades
+
+- **Gerenciamento de Contatos:** Cadastro, consulta, atualização e remoção de registros de contatos.
+- **Conexão com Banco de Dados:** Persistência segura e estruturada utilizando SQL.
+- **Estrutura Modular:** Código limpo e organizado seguindo boas práticas de orientação a objetos em Java.
 
 ---
 
 ## 🛠️ Tecnologias Utilizadas
 
+- **Linguagem:** [Java](https://www.oracle.com/java/)
 - **Banco de Dados:** SQL (MySQL / PostgreSQL / SQLite)
-- **Frontend:** HTML5, CSS3, JavaScript
-- **Lógica / Backend:** *(Adicione a linguagem utilizada, ex: Python, Node.js, Java, etc.)*
-- **Controle de Versão:** Git e GitHub
+- **Controle de Versão:** [Git](https://git-scm.com/) e [GitHub](https://github.com/)
 
 ---
 
-## 🗄️ Estrutura do Banco de Dados (Fase 1)
+## 🗄️ Estrutura do Banco de Dados
 
-Nesta primeira etapa, o foco está na organização dos dados essenciais para o funcionamento da empresa, incluindo:
-
-- **Empresas / Filiais:** Cadastro e informações corporativas.
-- **Funcionários / Usuários:** Controle de acesso, cargos e departamentos.
-- **Operações:** Histórico de atividades, relatórios e registros internos.
-
-> *Consulte a pasta `/database` para acessar os scripts `.sql` de criação das tabelas e população inicial de dados.*
+Os scripts para criação da estrutura das tabelas, esquemas e dados iniciais encontram-se no arquivo [`banco-de-dados.sql`](./banco-de-dados.sql) na raiz do repositório.
 
 ---
-
-## 🚀 Como Executar o Projeto
-
-### Pré-requisitos
-- Servidor de banco de dados SQL instalado.
-- Navegador web atualizado.
-
-### Passos
-1. **Clone o repositório:**
-   ```bash
-   git clone [https://github.com/SwiftOneLy/CorporateHub.git](https://github.com/SwiftOneLy/CorporateHub.git)
